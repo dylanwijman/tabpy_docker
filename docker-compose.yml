@@ -1,0 +1,5 @@
+services:
+ tabpy:
+   build: .
+   ports:
+     - "9004:9004"
