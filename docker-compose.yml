@@ -1,5 +1,12 @@
+version: "3"
 services:
  tabpy:
    build: .
    ports:
      - "9004:9004"
+   deploy:
+    resources:
+      limits:
+        cpus: '1'
+        memory: 1500M
+  
