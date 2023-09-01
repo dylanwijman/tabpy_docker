@@ -12,6 +12,8 @@ Simply run start.sh or start.cmd to start Tabpy
 
 It will be accessible on <a href="http://localhost:9004" target="_blank">localhost:9004</a>
 
+Login username and password are: tabpy
+
 ## Adding modules
 Adding more python modules is done by adding them to requirements.txt
 
