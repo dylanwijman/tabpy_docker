@@ -1,3 +1,4 @@
-chmod +x tabpy.sh
+#!/bin/bash
+# Create tabpy user with tabpy password
 tabpy-user add -u tabpy -p tabpy -f password.txt
-tabpy --config=tabpy_ssl.conf
+tabpy --config=tabpy.conf
